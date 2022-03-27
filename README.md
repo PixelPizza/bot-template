@@ -1,2 +1,2 @@
-# pixelpizza-template
-Template for pixel pizza bots
+# Pixel Pizza Template
+A template for pixelpizza discord bots

@@ -1,0 +1,59 @@
+{
+	"name": "@pixelpizza/template",
+	"version": "1.0.0",
+	"description": "Bot template for pixelpizza",
+	"main": "./dist/index.js",
+	"directories": {
+		"lib": "src"
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"update": "yarn up \"*\" -i",
+		"clean": "node scripts/clean-dist.mjs",
+		"prebuild": "yarn clean",
+		"build": "tsup",
+		"lint": "eslint --ext mjs,js,ts",
+		"lint:fix": "eslint --ext mjs,js,ts --fix",
+		"format": "prettier --write **/*.{ts,js,json,yml,yaml}",
+		"preinstall": "husky install",
+		"start": "yarn build && node dist/index.mjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/PixelPizza/pixelpizza-template.git"
+	},
+	"keywords": [],
+	"author": "Jaron Zijlstra <jaron_zijlstra@outlook.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/PixelPizza/pixelpizza-template/issues"
+	},
+	"homepage": "https://github.com/PixelPizza/pixelpizza-template#readme",
+	"dependencies": {
+		"@sapphire/decorators": "^4.3.3",
+		"@sapphire/framework": "next",
+		"@sapphire/plugin-logger": "^2.2.0",
+		"discord.js": "^13.6.0",
+		"dotenv": "^16.0.0",
+		"dotenv-parse-variables": "^2.0.0",
+		"tslib": "^2.3.1"
+	},
+	"devDependencies": {
+		"@commitlint/config-angular": "^16.2.3",
+		"@sapphire/eslint-config": "^4.3.2",
+		"@sapphire/ts-config": "^3.3.3",
+		"@types/dotenv-parse-variables": "^2",
+		"@types/eslint": "^8",
+		"@types/node": "^17.0.21",
+		"@types/prettier": "^2",
+		"@typescript-eslint/eslint-plugin": "^5.15.0",
+		"@typescript-eslint/parser": "^5.15.0",
+		"eslint": "^8.11.0",
+		"husky": "^7.0.4",
+		"prettier": "^2.6.0",
+		"tsup": "^5.12.1",
+		"typescript": "^4.6.2"
+	}
+}
