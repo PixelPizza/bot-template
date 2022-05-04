@@ -2,8 +2,6 @@ import { SlashCommandBuilder } from "@discordjs/builders";
 import { Command as SapphireCommand } from "@sapphire/framework";
 
 export abstract class Command extends SapphireCommand {
-	public name!: string;
-
 	protected get defaultChatInputCommand() {
 		return new SlashCommandBuilder().setName(this.name).setDescription(this.description);
 	}
