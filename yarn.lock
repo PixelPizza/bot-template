@@ -147,7 +147,6 @@ __metadata:
     "@sapphire/framework": next
     "@sapphire/plugin-logger": ^2.2.0
     "@sapphire/ts-config": ^3.3.3
-    "@types/dotenv-parse-variables": ^2
     "@types/eslint": ^8
     "@types/node": ^17.0.21
     "@types/prettier": ^2
@@ -155,7 +154,6 @@ __metadata:
     "@typescript-eslint/parser": ^5.15.0
     discord.js: ^13.6.0
     dotenv: ^16.0.0
-    dotenv-parse-variables: ^2.0.0
     eslint: ^8.11.0
     husky: ^7.0.4
     prettier: ^2.6.0
@@ -318,13 +316,6 @@ __metadata:
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
   checksum: ad87447820dd3f24825d2d947ebc03072b20a42bfc96cbafec16bff8bbda6c1a81fcb0be56d5b21968560c5359a0af4038a68ba150c3e1694fe4c109a063bed8
-  languageName: node
-  linkType: hard
-
-"@types/dotenv-parse-variables@npm:^2":
-  version: 2.0.1
-  resolution: "@types/dotenv-parse-variables@npm:2.0.1"
-  checksum: 336916fc01e29b08718a3e0ff8c97172af7f480c3b77adc3c2c3f1d0cee64423d850aa932d3d4fe15102b716297dea3031bef67e2909e31529450bc9ca78c694
   languageName: node
   linkType: hard
 
@@ -919,16 +910,6 @@ __metadata:
   dependencies:
     esutils: ^2.0.2
   checksum: fd7673ca77fe26cd5cba38d816bc72d641f500f1f9b25b83e8ce28827fe2da7ad583a8da26ab6af85f834138cf8dae9f69b0cd6ab925f52ddab1754db44d99ce
-  languageName: node
-  linkType: hard
-
-"dotenv-parse-variables@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "dotenv-parse-variables@npm:2.0.0"
-  dependencies:
-    debug: ^4.3.1
-    is-string-and-not-blank: ^0.0.2
-  checksum: b68bd5e94358443c746d49a9d3f6d7142ef3929700c4f48a7fd7ea1ce78262eda3bb2ad8c896fe5a59048783aafde73094926ce8a3f03b3051b9db356c2979cd
   languageName: node
   linkType: hard
 
@@ -1806,22 +1787,6 @@ __metadata:
   version: 2.0.1
   resolution: "is-stream@npm:2.0.1"
   checksum: b8e05ccdf96ac330ea83c12450304d4a591f9958c11fd17bed240af8d5ffe08aedafa4c0f4cfccd4d28dc9d4d129daca1023633d5c11601a6cbc77521f6fae66
-  languageName: node
-  linkType: hard
-
-"is-string-and-not-blank@npm:^0.0.2":
-  version: 0.0.2
-  resolution: "is-string-and-not-blank@npm:0.0.2"
-  dependencies:
-    is-string-blank: ^1.0.1
-  checksum: 9b0fff4f0974ffaceb382dcf012587d1ad5d5013d7260a4e85621b67fbcb29ca906bcd607fe71bdd72c642f7b56b5b9e779f9d54224b826da9aa48b2003b6113
-  languageName: node
-  linkType: hard
-
-"is-string-blank@npm:^1.0.1":
-  version: 1.0.1
-  resolution: "is-string-blank@npm:1.0.1"
-  checksum: 00a0955c2bac08cc84f9f878d2a3fdba86997ac23c0b661e50f39efba635444d9cec84237337200be9a4e07234069318498592817614525cd959ae0d43df2151
   languageName: node
   linkType: hard
 

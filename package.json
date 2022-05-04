@@ -36,14 +36,12 @@
 		"@sapphire/plugin-logger": "^2.2.0",
 		"discord.js": "^13.6.0",
 		"dotenv": "^16.0.0",
-		"dotenv-parse-variables": "^2.0.0",
 		"tslib": "^2.3.1"
 	},
 	"devDependencies": {
 		"@commitlint/config-angular": "^16.2.3",
 		"@sapphire/eslint-config": "^4.3.2",
 		"@sapphire/ts-config": "^3.3.3",
-		"@types/dotenv-parse-variables": "^2",
 		"@types/eslint": "^8",
 		"@types/node": "^17.0.21",
 		"@types/prettier": "^2",
