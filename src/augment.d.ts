@@ -9,4 +9,6 @@ export declare module "@sapphire/pieces" {
 	export interface StoreRegistryEntries {
 		// Add stores here
 	}
+
+	export interface Container {}
 }
