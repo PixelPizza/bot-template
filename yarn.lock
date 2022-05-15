@@ -32,19 +32,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-angular-type-enum@npm:^16.2.1":
-  version: 16.2.1
-  resolution: "@commitlint/config-angular-type-enum@npm:16.2.1"
-  checksum: 15749f4b5143501ffbfc6730bcc283e1398f5b2b83b3d1380892fdf897f9e32239aadc65ff8ea4af303c95da4069c9691c6987cb927687aafa490ef75b17954d
+"@commitlint/config-angular-type-enum@npm:^16.3.0":
+  version: 16.3.0
+  resolution: "@commitlint/config-angular-type-enum@npm:16.3.0"
+  checksum: ecd6b96134369a4641cf2962a417882c4fc4d5010797291a6a3660f8c6a4a6ff6cb68a9cd22b8421ac6dfeb27e63f300f8050230b8743c3bb7c3fed056746dee
   languageName: node
   linkType: hard
 
-"@commitlint/config-angular@npm:^16.2.4":
-  version: 16.2.4
-  resolution: "@commitlint/config-angular@npm:16.2.4"
+"@commitlint/config-angular@npm:^16.3.0":
+  version: 16.3.0
+  resolution: "@commitlint/config-angular@npm:16.3.0"
   dependencies:
-    "@commitlint/config-angular-type-enum": ^16.2.1
-  checksum: 593368679f24a9e885fc2598be31ed9f065bbeff84a3ef08eaabc46c22f823da85543a5037cc8b73d339bd7db9c5060b0d0e93ffa69ca2090a70e8b9dbb39cf7
+    "@commitlint/config-angular-type-enum": ^16.3.0
+  checksum: c98d284268516d341398cad8c943125bc80443d655ec4d74c3a76a21fe9ac93d719123b3a407f0ccfff4203c376b58d7d225f907fc903f0a92ef48eb2419fda9
   languageName: node
   linkType: hard
 
@@ -179,11 +179,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@pixelpizza/template@workspace:."
   dependencies:
-    "@commitlint/config-angular": ^16.2.4
+    "@commitlint/config-angular": ^16.3.0
     "@discordjs/builders": 0.13.0
     "@kaname-png/plugin-env": ^1.1.2
     "@sapphire/decorators": ^4.3.4
-    "@sapphire/eslint-config": ^4.3.4
+    "@sapphire/eslint-config": ^4.3.5
     "@sapphire/framework": next
     "@sapphire/plugin-logger": ^2.2.1
     "@sapphire/ts-config": ^3.3.4
@@ -243,18 +243,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sapphire/eslint-config@npm:^4.3.4":
-  version: 4.3.4
-  resolution: "@sapphire/eslint-config@npm:4.3.4"
+"@sapphire/eslint-config@npm:^4.3.5":
+  version: 4.3.5
+  resolution: "@sapphire/eslint-config@npm:4.3.5"
   dependencies:
-    "@typescript-eslint/eslint-plugin": ^5.20.0
-    "@typescript-eslint/parser": ^5.20.0
-    eslint: ^8.13.0
+    "@typescript-eslint/eslint-plugin": ^5.23.0
+    "@typescript-eslint/parser": ^5.23.0
+    eslint: ^8.15.0
     eslint-config-prettier: ^8.5.0
     eslint-plugin-prettier: ^4.0.0
     prettier: ^2.6.2
-    typescript: ^4.6.3
-  checksum: f45bbbf5900d91472ae2798e313fe5fede12da0a341fe841f49540a7926228058e3a34280005d0004073f42a6e3abaf4db3bd823c9f5375845d488e2307e26e3
+    typescript: ^4.6.4
+  checksum: ede88a3196b884b773b083d342390e0dcaeecfdcdc3192a4cb0c06406f130e0089d21f9174bfccc1c6ddb098e2b3f87d3ff75d3706ca95159b66da65711442e6
   languageName: node
   linkType: hard
 
@@ -426,7 +426,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^5.20.0, @typescript-eslint/eslint-plugin@npm:^5.23.0":
+"@typescript-eslint/eslint-plugin@npm:^5.23.0":
   version: 5.23.0
   resolution: "@typescript-eslint/eslint-plugin@npm:5.23.0"
   dependencies:
@@ -449,7 +449,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.20.0, @typescript-eslint/parser@npm:^5.23.0":
+"@typescript-eslint/parser@npm:^5.23.0":
   version: 5.23.0
   resolution: "@typescript-eslint/parser@npm:5.23.0"
   dependencies:
@@ -1363,7 +1363,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.13.0, eslint@npm:^8.15.0":
+"eslint@npm:^8.15.0":
   version: 8.15.0
   resolution: "eslint@npm:8.15.0"
   dependencies:
