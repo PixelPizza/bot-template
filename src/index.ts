@@ -1,7 +1,7 @@
 import "@sapphire/plugin-logger/register";
 import "@kaname-png/plugin-env/register";
 import { config } from "dotenv";
-import { ApplicationCommandRegistries, container, RegisterBehavior } from "@sapphire/framework";
+import { ApplicationCommandRegistries, RegisterBehavior } from "@sapphire/framework";
 import { Client } from "./lib/Client";
 import "./container";
 config();
@@ -12,7 +12,7 @@ async function main() {
 
 	ApplicationCommandRegistries.setDefaultBehaviorWhenNotIdentical(RegisterBehavior.Overwrite);
 
-	await client.login(container.env.string("TOKEN"));
+	await client.login();
 }
 
 void main();
