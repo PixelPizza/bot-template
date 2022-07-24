@@ -11,7 +11,7 @@
 	],
 	"scripts": {
 		"update": "yarn up \"*\" -i",
-		"build": "yarn clean && tsup",
+		"build": "yarn clean && tsup && tsc --noEmit",
 		"build:dev": "yarn build && rollup -c scripts/rollup.dev.ts",
 		"build:prod": "yarn build && rollup -c scripts/rollup.prod.ts",
 		"clean": "node scripts/clean-dist.mjs",
