@@ -1,2 +1,2 @@
-# ts-template
-Template for creating TypeScript projects
+# bot-template
+Template for creating discord bots with Sapphire

@@ -1,7 +1,7 @@
 {
-	"name": "@theravenouscorporate/ts-template",
+	"name": "@pixelpizza/bot-template",
 	"version": "1.0.0",
-	"description": "Template for creating TypeScript projects",
+	"description": "Template for creating discord bots with Sapphire",
 	"main": "dist/index.js",
 	"directories": {
 		"lib": "src",
