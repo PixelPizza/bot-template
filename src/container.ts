@@ -1,12 +1,12 @@
-import { EnvManager } from "#lib";
+import { config } from "dotenv-cra";
 import { container } from "@sapphire/framework";
-import { config } from "dotenv";
+import { parseEnv } from "#lib";
 config();
 
 declare module "@sapphire/pieces" {
 	interface Container {
-		env: EnvManager;
+		env: ReturnType<typeof parseEnv>;
 	}
 }
 
-container.env = new EnvManager();
+container.env = parseEnv();
