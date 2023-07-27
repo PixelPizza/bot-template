@@ -4,7 +4,7 @@ export default defineConfig({
 	clean: true,
 	entry: ["src/**/*.ts", "!src/**/*.d.ts"],
 	format: ["cjs"],
-	minify: true,
+	minify: false,
 	skipNodeModulesBundle: true,
 	target: "esnext",
 	tsconfig: "src/tsconfig.json",
